@@ -1,0 +1,73 @@
+/*applies everywhere */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*applies on whole body*/
+body {
+  background-color: rgb(230, 230, 195);
+  font-family: Arial;
+  font-size: 15px;
+  padding: 75px;
+}
+
+/*applies on all headers 1 */
+h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+/*applies on all headers 3 */
+h3 {
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+/*applies on all paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/*applies on all classes named first */
+.first {
+  color: rgb(201, 8, 8);
+}
+
+/*applies on all classes named second */
+.second {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*applies on all ids named your-name */
+#your-name {
+  background-color: rgb(220, 220, 88);
+  border: 7px double yellowgreen;
+  width: 350px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+/*applies on all elements named input and button */
+input,
+button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+/*applies on all element named a */
+a {
+  background-color: yellowgreen;
+}
+
+/*applies on header 3 inside id your-name*/
+#your-name h3 {
+  color: olive;
+}
+
+/*applies to all elements named #image 
+  if we only change width or height, aspect will not change so height will adjust */
+#image {
+  width: 250px;
+}
